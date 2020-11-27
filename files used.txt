@@ -1,0 +1,22 @@
+
+
+ofstream user("userID.txt");
+ofstream uidPort("clientPort.txt");
+ofstream usergrp("userGroup.txt");
+ofstream fileinfo("fileInfo.txt");
+
+
+maps used:
+
+unordered_map<int, string> sidUser;
+unordered_map<string, vector<string>> uidgid;
+unordered_map<string,string> grpOwner;
+unordered_map<string, vector<string> > grpmembers;
+
+
+struct fileInfoPerGroup
+{
+    string gid;
+    unordered_map<string, vector<string>> activePeers; //<filename,Uid>
+};
+vector<struct fileInfoPerGroup> files;

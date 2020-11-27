@@ -1,0 +1,10 @@
+How Bittorrent works
+https://www.howtogeek.com/141257/htg-explains-how-does-bittorrent-work/
+
+Torrent File
+https://en.wikipedia.org/wiki/Torrent_file
+
+Bittorrent Tracker
+https://en.wikipedia.org/wiki/BitTorrent_tracker
+
+https://man7.org/linux/man-pages/man7/ip.7.html

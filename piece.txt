@@ -1,0 +1,9 @@
+1. score of a piece = no of peers that have it
+2. flattened array = score of all pieces + who have it + mark undownloaded
+3. sort the flattened array on increasing order of score
+4. p peers
+5. pick p pieces from the flattened array
+6. download them in parallel
+7. check sha1 and mark downloaded
+8. again pick p undownloaded pieces
+9. 
