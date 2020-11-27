@@ -1,0 +1,27 @@
+//  2 - Tracker to Peer
+
+#define USER_CREATED "2000"
+#define USER_NOT_CREATED "2001"
+
+#define LOGIN_SUCCESS "2100"
+#define LOGIN_INVALID "2101"
+
+#define GROUP_CREATED "2200"
+#define GROUP_NOT_CREATED "2201"
+
+#define GROUP_JOINED "2300"
+#define GROUP_NOT_JOINED "2301"
+
+#define GROUP_LEFT "2400"
+#define GROUP_NOT_LEFT "2401"
+
+#define FILE_UPLOAD_SUCCESSFUL "2500"
+#define FILE_UPLOAD_UNSUCCESSFUL "2501"
+
+#define REQ_ACCEPT "2700"
+
+
+// #define GROUP_LEFT 2600
+// #define GROUP_NOT_LEFT 2601
+
+#define SHA_DIGEST_LENGTH 20
